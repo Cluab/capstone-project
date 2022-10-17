@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body{
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    height: 20%;
+}
+.microverse-logo {
+    width: 50%;
+
+}
+    .hamburge {
+      cursor: pointer;
+    }
+  
+    .hamburger.active {
+      width: 40px;
+      height: 30px;
+    }
+  
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px;
+      margin-right: 15px;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      background-color: rgb(3, 3, 3);
+    }
+/*   
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+      background-color: #67798e;
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+      background-color: #67798e;
+    }
+  
+    span.bars.active {
+      width: 10px;
+      height: 10px;
+    } */
+
+header {
+
+}
