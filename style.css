@@ -11,7 +11,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap:15%;
-    position: fixed;
+    /* position: fixed; */
     height: 5%;
     width: 100vw;
     padding: 20px;
@@ -21,6 +21,7 @@ nav {
 .microverse-logo {
     width: 100%;
     filter: invert(70%);
+    position: relative;
 }
 .nav-logo-link {
     width: 50%;
@@ -67,7 +68,7 @@ nav {
 .intro-section {
     display: flex;
     flex-direction: column;
-    margin-top:20% ;
+    /* margin-top:20% ; */
     background-image: url(/images/mobile_intro_bg.png);
     background-repeat: no-repeat;
     padding: 20px;
@@ -150,8 +151,92 @@ nav {
 
 .team-section {
     margin-top: 30px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.team-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.team-profile {
+    display:flex;
+    flex-direction: row;
+   
+    height: 0%;
+    gap: 20px;
 }
 .image-box {
+ width: 50%;
+ height: fit-content;
+}
+.team-image {
+ 
+    position: relative;
+   top: 10%;
+    left: 2%;
+    width: 100%;
+    padding-top: 20px;
+   
+}
+.square-img {
+    height: 10%;
+    left: 20px;
+    position: absolute;
+   
+}
+.team-name h4 {
+    color: black;
+}
+.team-name p {
+    color: #EC5242;
+}
+
+.team-box p {
+    margin: 0%;
+}
+
+.sponser {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(49, 49, 49);
+}
+
+.backed-by {
+    /* display: flex; */
+    align-items: center;
+    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    margin-top: 30px;
+    justify-content: space-between;
     
-    background-image: url("/images/");
+}
+
+.sponser-img {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    width: 90%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+footer img {
+    padding-top: 10px;
+}
+
+footer p {
+   margin-top: 0;
 }
