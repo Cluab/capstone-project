@@ -76,6 +76,26 @@ const sponsor = [
       logo:"sponsers-img/61522595be718075aca25e5c_northzone.png"}
 ];
 
+const learn = [{
+  image:"images/program_icon_04.png"
+  ,title:"NO UPFRONT COST"
+  ,discretion:"You owe us nothing until you get a job —no matter what country you’re in."
+  
+},{
+  image:"images/program_icon_03.png"
+  ,title:"COLLAB LEARNING"
+  ,discretion:"Learn through pair programming, group projects,and project reviews."
+  
+},{
+  image:"images/program_icon_01.png"
+  ,title:"GLOBAL CHANCE"
+  ,discretion:"Connect with global jobs after gaining experience working on a remote team."
+},{
+  image:"images/program_icon_05.png"
+  ,title:"SUPPORT AND LIABLE"
+  ,discretion:"Receive support from our dedicated Student Success Team, mentors, a personal career coach, and more."
+},
+]
 // const story = [{
 //   name:"kevin Mwangi",
 //   image:"images/Screenshot (17).png"
@@ -88,6 +108,7 @@ const sponsor = [
 
 const team = document.querySelector('.team-box');
 const spons = document.querySelector(".backed-by");
+const box = document.querySelector(".main-big-box")
 // const success = document.querySelector(".success-img");
 
 function boredmembers() {
@@ -118,6 +139,25 @@ function backup() {
   });
 }
 backup()
+
+function experience() {
+  learn.forEach((learn) => {
+  box.innerHTML += `
+    
+    <div class="main-box">
+            <img src="${learn.image}" alt="${learn.title}">
+            <h4>${learn.title}</h4>
+            <p>${learn.discretion}</p>
+        </div>
+  `;
+});
+}
+experience()
+
+
+
+
+
 
 // function winstory() {
 //   story.forEach((story) => {
