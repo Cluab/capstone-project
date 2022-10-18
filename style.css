@@ -96,7 +96,7 @@ nav {
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 800;
     background-image: url("/images/grandcany.jpg");
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 .intro-description {
@@ -250,13 +250,18 @@ footer{
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 5px;
+    background-color: #2e2e2e;
 }
 footer img {
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    /* filter: invert(100%); */
+    width: 100%;
 }
 
 footer p {
    margin-top: 0;
+   color: white;
+   font-size: 10px;
 }
 .Microvers-section {
     display: flex;
@@ -309,14 +314,16 @@ footer p {
  color: black;
 }
 .highlighted {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     color: black;
+    font-weight: 700;
 }
 .know-more {
     font-size: 15px;
     color: black;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 .know-more a {
     color: #EC5242;
@@ -327,7 +334,36 @@ footer p {
     flex-direction: column;
     
 }
+.spotlight-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f1f1;
+    background-repeat: no-repeat;
+    gap: 25px;
+    padding: 20px;
+    background-size:cover;
+}
+.spotlight-section p {
+    color:black;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+}
 
+.success-img img{
+    width: 100%;
+    /* color: rgb(51, 51, 51); */
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(184, 4, 4));
+    /* filter:grayscale(777%);   */
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.success-img img:hover {
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0));
+    
+    /* filter:grayscale(30%); */
+}
 @media (min-width: 768px) {
     nav {
         padding: 20px 80px 10px 10px;
