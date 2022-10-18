@@ -1,6 +1,6 @@
   const story = [{
     name:"kevin Mwangi",
-    image:"images/Screenshot (17).png"
+    image:"images/Screenshot (22).png"
     ,link:"https://www.microverse.org/blog/a-career-with-microsoft-how-microverse-helped-pave-the-way"
   },
   {name:"Gabriela Cruz Olivera",

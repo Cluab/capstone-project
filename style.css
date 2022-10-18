@@ -666,7 +666,7 @@ gap: 5px;
     .Microvers-section {
         display: flex;
         flex-direction: column;
-        margin-top:90px;
+        margin-top:85px;
         background-image: url("/images/about_bg_01.png");
         background-repeat: no-repeat;
         gap: 25px;
@@ -780,18 +780,32 @@ gap: 5px;
         font-weight: 700;
         text-align: center;
         margin-top: 0;
+        font-size: 18px;
     }
+.success-img {
+    padding: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 
+}
+.success-img a {
+    width: 539px;
+    height: 300px;
+}
     .success-img img{
-        width: 100%;
+        width: 539px;
+    height: 300px;
         /* color: rgb(51, 51, 51); */
-        filter: opacity(0.5) drop-shadow(0 0 0 rgb(184, 4, 4));
+        filter: ;
+        filter: opacity(0.5)  drop-shadow(0 0 0 rgb(94, 0, 0));
         /* filter:grayscale(777%);   */
         transition: 0.5s;
         cursor: pointer;
     }
 
     .success-img img:hover {
-        filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0));}
+        filter: opacity(1)  drop-shadow(0 0 0 rgb(0, 0, 0));}
 }
 
