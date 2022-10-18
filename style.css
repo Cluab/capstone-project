@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 body{
     font-family:'Nanum Gothic', sans-serif;
@@ -11,12 +12,16 @@ nav {
     display: flex;
     flex-direction: row;
     gap:15%;
-    /* position: fixed; */
+    position: fixed;
+    z-index: 20;
     height: 5%;
     width: 100vw;
     padding: 20px;
     top: 0%;
     background-color: white;
+}
+.about-link{
+    display: none;
 }
 .microverse-logo {
     width: 100%;
@@ -68,7 +73,7 @@ nav {
 .intro-section {
     display: flex;
     flex-direction: column;
-    /* margin-top:20% ; */
+    margin-top:15% ;
     background-image: url(/images/mobile_intro_bg.png);
     background-repeat: no-repeat;
     padding: 20px;
@@ -88,6 +93,7 @@ nav {
 .intro1 h2 {
     margin-top: 0;
     font-size: 36px;
+    font-family: 'COCOGOOSE', sans-serif;
     font-weight: 800;
     background-image: url("/images/grandcany.jpg");
     -webkit-background-clip: text;
@@ -126,6 +132,18 @@ nav {
 .main-text h3 {
     justify-content: center;
     border-bottom: 1px solid #EC5242;
+    padding-bottom: 10px;
+}
+.at-microverse {
+    text-decoration: none;
+    color: #EC5242;
+}
+.main-text h1 {
+    justify-content: center;
+    border-bottom: 1px solid #EC5242;
+    font-family:'COCOGOOSE', sans-serif; 
+    font-size: 25px;
+    color: #EC5242;
     padding-bottom: 10px;
 }
 .main-box {
@@ -221,7 +239,7 @@ nav {
 }
 
 .sponser-img {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    /* -webkit-filter: grayscale(0%); Safari 6.0 - 9.0 */
     width: 90%;
 }
 
@@ -240,3 +258,125 @@ footer img {
 footer p {
    margin-top: 0;
 }
+.Microvers-section {
+    display: flex;
+    flex-direction: column;
+    margin-top:15% ;
+    background-color: #f7f1f1;
+    background-repeat: no-repeat;
+    gap: 25px;
+    padding: 20px;
+    padding-top: 3em;
+    background-size:cover;    
+}
+
+.diffrent p {
+    color: black;
+    text-align: center;
+}
+
+.story {
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.story p {
+    margin: 0;
+}
+.contact {
+    font-size: 13px;
+    text-align: center;
+}
+.contact a {
+    color: black;
+}
+.black {
+    color: black;
+    font-size: 24px;
+}
+.goal-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f1f1;
+    background-repeat: no-repeat;
+    gap: 25px;
+    padding: 20px;
+    background-size:cover;
+}
+.goal-text {
+ text-align: center;
+ color: black;
+}
+.highlighted {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.know-more {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 30px;
+}
+.know-more a {
+    color: #EC5242;
+    text-decoration: none;
+}
+.mission-box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (min-width: 768px) {
+    nav {
+        padding: 20px 80px 10px 10px;
+        gap: 40em;
+       
+        margin: 0;
+        
+    }
+    nav a {
+        width: 40%;
+       
+    }
+    .nav-logo-link {
+        width: fit-content;
+    }
+    .about-link {
+        display: contents;
+        height: fit-content;
+    }
+    .about-link p {
+        margin: 0;
+        padding-top: 3px;
+        font-size: 20px;
+        color: #797575;
+        font-weight: 700;
+    }
+    .hamburger{
+      display: none;
+    }
+  
+    .microverse-logo {
+        width: 100%;
+        height: 90%;
+        
+    }
+
+    .intro-section {
+        margin-top: 5%;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        margin-top:15% ;
+        background-image: url('');
+        background-repeat: no-repeat;
+        padding: 20px;
+        background-size:cover;    
+    }
+    
+}
+
