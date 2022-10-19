@@ -42,61 +42,61 @@ const teammembers = [{
 },
 ];
 
-const sponsor = [
-  {
-    name: 'SOMA CAPITAl',
-    logo: 'sponsers-img/5e581622c52d562e19f15c2f_soma-capital.png',
-  },
-  {
-    name: 'Y 50',
-    logo: 'sponsers-img/5e5816210e511c21a03350d2_50Ylogo.png',
-  },
-  {
-    name: 'GENERAL CATALYST',
-    logo: 'sponsers-img/5e5816210e511cdd323350d3_gc.webp',
-  },
-  {
-    name: 'yclogo',
-    logo: 'sponsers-img/5e5816226dfe7b54f5cef482_yclogo.png',
-  },
-  {
-    name: 'L2 VENTURES',
-    logo: 'sponsers-img/5e5816226dfe7b896acef481_l2.png',
-  },
-  {
-    name: 'hackvc',
-    logo: 'sponsers-img/5e58162203fc89e9aa5acc3a_hackvc.webp',
-  },
-  {
-    name: '',
-    logo: '',
-  },
-  {
-    name: 'Northzone',
-    logo: 'sponsers-img/61522595be718075aca25e5c_northzone.png',
-  },
-];
+// const sponsor = [
+//   {
+//     name: 'SOMA CAPITAl',
+//     logo: 'sponsers-img/5e581622c52d562e19f15c2f_soma-capital.png',
+//   },
+//   {
+//     name: 'Y 50',
+//     logo: 'sponsers-img/5e5816210e511c21a03350d2_50Ylogo.png',
+//   },
+//   {
+//     name: 'GENERAL CATALYST',
+//     logo: 'sponsers-img/5e5816210e511cdd323350d3_gc.webp',
+//   },
+//   {
+//     name: 'yclogo',
+//     logo: 'sponsers-img/5e5816226dfe7b54f5cef482_yclogo.png',
+//   },
+//   {
+//     name: 'L2 VENTURES',
+//     logo: 'sponsers-img/5e5816226dfe7b896acef481_l2.png',
+//   },
+//   {
+//     name: 'hackvc',
+//     logo: 'sponsers-img/5e58162203fc89e9aa5acc3a_hackvc.webp',
+//   },
+//   {
+//     name: '',
+//     logo: '',
+//   },
+//   {
+//     name: 'Northzone',
+//     logo: 'sponsers-img/61522595be718075aca25e5c_northzone.png',
+//   },
+// ];
 
-const learn = [{
-  image: 'images/program_icon_04.png',
-  title: 'NO UPFRONT COST',
-  discretion: 'You owe us nothing until you get a job —no matter what country you’re in.',
+// const learn = [{
+//   image: 'images/program_icon_04.png',
+//   title: 'NO UPFRONT COST',
+//   discretion: 'You owe us nothing until you get a job —no matter what country you’re in.',
 
-}, {
-  image: 'images/program_icon_03.png',
-  title: 'COLLAB LEARNING',
-  discretion: 'Learn through pair programming, group projects,and project reviews.',
+// }, {
+//   image: 'images/program_icon_03.png',
+//   title: 'COLLAB LEARNING',
+//   discretion: 'Learn through pair programming, group projects,and project reviews.',
 
-}, {
-  image: 'images/program_icon_01.png',
-  title: 'GLOBAL CHANCE',
-  discretion: 'Connect with global jobs after gaining experience working on a remote team.',
-}, {
-  image: 'images/program_icon_05.png',
-  title: 'SUPPORT AND LIABLE',
-  discretion: 'Receive support from our dedicated Student Success Team, mentors, a personal career coach, and more.',
-},
-];
+// }, {
+//   image: 'images/program_icon_01.png',
+//   title: 'GLOBAL CHANCE',
+//   discretion: 'Connect with global jobs after gaining experience working on a remote team.',
+// }, {
+//   image: 'images/program_icon_05.png',
+//   title: 'SUPPORT AND LIABLE',
+//   discretion: 'Receive support from our dedicated Student Success Team, mentors, a personal career coach, and more.',
+// },
+// ];
 // const story = [{
 //   name:"kevin Mwangi",
 //   image:"images/Screenshot (17).png"
@@ -108,8 +108,8 @@ const learn = [{
 // ];
 
 const team = document.querySelector('.team-box');
-const spons = document.querySelector('.backed-by');
-const box = document.querySelector('.main-big-box');
+// const spons = document.querySelector('.backed-by');
+// const box = document.querySelector('.main-big-box');
 // const success = document.querySelector(".success-img");
 
 function boredmembers() {
@@ -142,29 +142,29 @@ function boredmembers() {
 }
 boredmembers();
 
-function backup() {
-  sponsor.forEach((sponsor) => {
-    spons.innerHTML += `
+// function backup() {
+//   sponsor.forEach((sponsor) => {
+//     spons.innerHTML += `
       
-      <img class="sponser-img"src="${sponsor.logo}" alt="${sponsor.name}">
-    `;
-  });
-}
-backup();
+//       <img class="sponser-img"src="${sponsor.logo}" alt="${sponsor.name}">
+//     `;
+//   });
+// }
+// backup();
 
-function experience() {
-  learn.forEach((learn) => {
-    box.innerHTML += `
+// function experience() {
+//   learn.forEach((learn) => {
+//     box.innerHTML += `
     
-    <div class="main-box">
-            <img src="${learn.image}" alt="${learn.title}">
-            <h4>${learn.title}</h4>
-            <p>${learn.discretion}</p>
-        </div>
-  `;
-  });
-}
-experience();
+//     <div class="main-box">
+//             <img src="${learn.image}" alt="${learn.title}">
+//             <h4>${learn.title}</h4>
+//             <p>${learn.discretion}</p>
+//         </div>
+//   `;
+//   });
+// }
+// experience();
 
 // function winstory() {
 //   story.forEach((story) => {
