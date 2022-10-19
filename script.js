@@ -129,7 +129,7 @@ function boredmembers() {
             <div class="desktop-version">
       <div class="team-profile">
                 <div class="image-box">
-                    <img class="square-img" src="/images/Screenshot (12).png" alt="">
+                    <img class="square-img" src="images/Screenshot (12).png" alt="">
                 <img class="team-image"src="${teammembers.image}" alt="${teammembers.name} image">
           </div>
           <div class="minebox">
