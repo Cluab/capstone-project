@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family:'Nanum Gothic', sans-serif;
     font-weight: 400;
@@ -20,14 +23,52 @@ nav {
     top: 0%;
     background-color: white;
 }
-.about-link{
-    display: none;
+@media (max-width: 768px){
+.ul-nav {
+    position: fixed;
+    left: -100%;
+    display: flex;
+    top: 0px;
+    padding-top: 0px;
+    gap: 10px;
+    flex-direction: column;
+    background: rgb(39, 42, 50);
+    opacity: 0.95;
+    width: 70%;
+    height: 100vh;
+    font-size: 27px;
+    margin-top: 0;
+    transition: 0.9s;
+    list-style-type: none;
 }
-.microverse-logo {
+.ul-nav li p {
+    margin-top: 0;
+    color: #f7f1f1;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border-style: none;
+    font-size: 40px;
+    background: rgb(39, 42, 50);
+    opacity: 0.95;
+    color: #f7f1f1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 40px;
+}
+
+.ul-nav.active {
+    left: 0;
+  }
+
+/* .microverse-logo {
     width: 100%;
     filter: invert(70%);
     position: relative;
-}
+} */
 .nav-logo-link {
     width: 50%;
 }
@@ -42,6 +83,9 @@ nav {
     .hamburger.active {
       width: 40px;
       height: 30px;
+      /* position: absolute;
+      right: 40px; */
+     
     }
   
     .bar {
@@ -53,8 +97,8 @@ nav {
          -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
         background-color: rgb(3, 3, 3);
-    }
-    .hamburger.active .bar:nth-child(2) {
+    }}
+    /* .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
@@ -68,6 +112,11 @@ nav {
     span.bars.active {
         width: 10px;
         height: 10px;
+    } */
+    .microverse-logo {
+        width: 100%;
+        filter: invert(70%);
+        position: relative;
     }
 
 .intro-section {
@@ -151,6 +200,11 @@ nav {
     font-size: 25px;
     color: #EC5242;
     padding-bottom: 10px;
+}
+.main-big-box {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }
 .main-box {
     display: flex;
@@ -263,7 +317,9 @@ footer{
 footer img {
     /* padding-top: 10px; */
     /* filter: invert(100%); */
-    width: 100%;
+    min-width: 100px;
+max-width:100px ;
+    
 }
 
 footer p {
@@ -385,6 +441,9 @@ footer p {
 @media (min-width: 768px) {
     .desktop-version {
         display: contents;
+    }
+    button {
+        display: none;
     }
     nav {
         padding: 20px 50px 10px 50px;
@@ -683,11 +742,11 @@ gap: 5px;
         background-color: #2e2e2e;
     }
     footer img {
-        /* padding-top: 10px; */
-        /* filter: invert(100%); */
+    
        min-width:200px ;
        max-width: 200px;
-
+       min-height:40px;
+       max-height:40px;
     }
      
     .ender {

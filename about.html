@@ -12,7 +12,7 @@
     <header>
         
         <nav>
-            <div class="hamburger">
+            <div class="hamburger" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -20,13 +20,14 @@
             <a href="index.html" class="nav-logo-link"> 
                 <img class="microverse-logo"src="/images/transparent.webp" alt="Microverse logo click for main page">
             </a> 
-            <ul>
+            <ul class="ul-nav">
+                <button class="close-button">&times;</button>
                 <li class="highlight"><a class="about-link highlight"href="about.html"><p class="highlight">About</p></a></li>
-                <li><a class="other-link"href="#intro"><p>Introduction</p></a></li>
-                <li><a class="other-link"href="#goal"><p>Microverse's Mission</p></a></li>
-                <li><a class="other-link"href="#spotlight"><p>Student Spotlight</p></a></li>
+                <li><a class="other-link nav-link"href="#intro"><p>Introduction</p></a></li>
+                <li><a class="other-link nav-link"href="#goal"><p>Microverse's Mission</p></a></li>
+                <li><a class="other-link nav-link"href="#spotlight"><p>Student Spotlight</p></a></li>
                 </ul>
-        </nav>
+
 </header>
 <section class="Microvers-section" id="intro">
     <div class="main-text">
@@ -86,7 +87,8 @@
         Follow us on our journey to close the gap and connect one million people to remote jobs by 2030.</p>
      <p class="mobile-version ">Follow us on our journey where Microverse invests in you</p>
 </footer>
-<script src="/win.js"></script>  
+<script src="/win.js"></script> 
+<script src="menu.js"></script>   
 </body>
 </html>
 
