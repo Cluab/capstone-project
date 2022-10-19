@@ -94,7 +94,7 @@ const teammembers = [{
 // }, {
 //   image: 'images/program_icon_05.png',
 //   title: 'SUPPORT AND LIABLE',
-//   discretion: 'Receive support from our dedicated Student Success Team, mentors, a personal career coach, and more.',
+//
 // },
 // ];
 // const story = [{
@@ -145,7 +145,7 @@ boredmembers();
 // function backup() {
 //   sponsor.forEach((sponsor) => {
 //     spons.innerHTML += `
-      
+
 //       <img class="sponser-img"src="${sponsor.logo}" alt="${sponsor.name}">
 //     `;
 //   });
@@ -155,7 +155,7 @@ boredmembers();
 // function experience() {
 //   learn.forEach((learn) => {
 //     box.innerHTML += `
-    
+
 //     <div class="main-box">
 //             <img src="${learn.image}" alt="${learn.title}">
 //             <h4>${learn.title}</h4>

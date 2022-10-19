@@ -104,9 +104,9 @@ nav {
     transition: all 0.3s ease;
     background-color: rgb(3, 3, 3);
   }
-}
 
-/* .hamburger.active .bar:nth-child(2) {
+
+  /* .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
@@ -121,23 +121,26 @@ nav {
         width: 10px;
         height: 10px;
     } */
+
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+
+    /* margin-top: 15%; */
+    background-image: url("images/mobile_intro_bg.png");
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-top: 50px;
+    background-size: cover;
+    scroll-behavior: smooth;
+    margin-top: 13%;
+  }
+}
+
 .microverse-logo {
   width: 100%;
   filter: invert(70%);
   position: relative;
-}
-
-.intro-section {
-  display: flex;
-  flex-direction: column;
-
-  /* margin-top: 15%; */
-  background-image: url("images/mobile_intro_bg.png");
-  background-repeat: no-repeat;
-  padding: 20px;
-  background-size: cover;
-  scroll-behavior: smooth;
-  margin-top: 13%;
 }
 
 .intro1 {
@@ -564,6 +567,7 @@ footer {
     background-image: url('images/main_big.png');
     background-repeat: no-repeat;
     padding: 20px;
+    margin-top: 5%;
     padding-top: 10px;
     background-size: cover;
   }
