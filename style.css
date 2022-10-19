@@ -6,8 +6,8 @@ body{
     font-weight: 400;
     margin: 0;
     color: #797575;
+    scroll-behavior: smooth;
 }
-
 nav {
     display: flex;
     flex-direction: row;
@@ -77,7 +77,8 @@ nav {
     background-image: url(/images/mobile_intro_bg.png);
     background-repeat: no-repeat;
     padding: 20px;
-    background-size:cover;    
+    background-size:cover;  
+    scroll-behavior: smooth;  
 }
 
 .intro1 {
@@ -124,6 +125,11 @@ nav {
     color: white;
     align-content: space-between;
     gap: 20px;
+    scroll-behavior: smooth;
+}
+
+#intro :-webkit-scrollbar {
+    scroll-behavior: smooth;
 }
 .main-text {
     display: flex;
@@ -381,10 +387,25 @@ footer p {
         display: contents;
     }
     nav {
-        padding: 20px 80px 10px 10px;
-        gap: 40em;
+        padding: 20px 50px 10px 50px;
+        padding-right: 50px;
+        justify-content: space-between;
+      min-width: 768px;
+      max-width:100% ;
        height: 50px;
         margin: 0;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+       list-style-type: none;
+       gap: 70px;
+       width: fit-content;
+       padding: 0%;
+       margin: 0%;
+       padding-right: 10%;
+       padding-top: 5px;
         
     }
     nav a {
@@ -392,25 +413,37 @@ footer p {
        
     }
     .nav-logo-link {
+        display: flex;
         width: fit-content;
     }
     .about-link {
         display: contents;
         height: fit-content;
     }
+    .other-link {
+        text-decoration: none;
+    }
     .about-link p {
         margin: 0;
         padding-top: 3px;
         font-size: 20px;
         color: #797575;
-        font-weight: 700;
+        font-weight: 800;
+        
+    }
+    .other-link p{
+        margin: 0;
+        padding-top: 3px;
+        font-size: 20px;
+        color: #797575;
+        font-weight: 500;
     }
     .hamburger{
       display: none;
     }
   
     .microverse-logo {
-        width: 100%;
+       min-width: 300px;
         height: 90%;
         
     }
@@ -475,13 +508,13 @@ footer p {
         background-image: url("/images/pattern_bg.png");
         background-color: rgb(39, 42, 50);
         margin: 0%; 
-        min-height:470px ;
-        max-height:500px ;
+        min-height:670px ;
+        max-height:600px ;
         padding: 60px 50px;
         padding-top: 60px;
         color: white;
         align-content: space-between;
-        gap: 20px;
+        gap: 100px;
     }
     .main-text {
         display: flex;
@@ -514,6 +547,7 @@ footer p {
         gap: 19px;
         padding: 10px;
         width: fit-content;
+        height: auto;
         background: rgba(255, 255, 255, 0.1);
     
     }
@@ -546,6 +580,7 @@ footer p {
 
     .team-section {
         min-height: 1000px;
+        margin-bottom: 100px;
     }
 
     .team-box {
@@ -595,6 +630,7 @@ gap: 5px;
     .team-name h4 {
         color: black;
         margin-bottom: 0;
+        font-size: 20px;
 
     }
     .team-name p {
@@ -603,7 +639,7 @@ gap: 5px;
     
     .team-box p {
         margin: 0%;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .sponser {
@@ -735,6 +771,9 @@ gap: 5px;
      color: black;
      font-size: 20px
     }
+    .highlight {
+        font-weight: 00;
+    }
     .highlighted {
         font-size: 30px;
         text-align: center;
@@ -798,7 +837,6 @@ gap: 5px;
         width: 539px;
     height: 300px;
         /* color: rgb(51, 51, 51); */
-        filter: ;
         filter: opacity(0.5)  drop-shadow(0 0 0 rgb(94, 0, 0));
         /* filter:grayscale(777%);   */
         transition: 0.5s;
