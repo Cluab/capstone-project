@@ -11,9 +11,9 @@
 - Frameworks(NONE)
 - Technologies used(GIT, GITHUB, VSCODE)
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://cluab.github.io/portal-capstone1/index.html)
 
 
 
