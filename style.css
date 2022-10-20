@@ -285,7 +285,9 @@ nav {
 }
 
 .main-box p {
-  font-size: 10px;
+  font-size: 13px;
+  margin: 0;
+  padding-top: 16px;
 }
 
 .team-section {
