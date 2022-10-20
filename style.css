@@ -268,7 +268,6 @@ nav {
   color: rgb(255, 254, 254);
   font-size: 13px;
   padding-bottom: 10px;
-  /* padding-top: 50px; */
 }
 .about-footer p {
   margin-top: 0;
@@ -481,12 +480,33 @@ nav {
   display: none;
 }
 
-.success-img img {
-  width: 100%;
-  filter: opacity(0.5) drop-shadow(0 0 0 rgb(184, 4, 4));
-  transition: 0.5s;
-  cursor: pointer;
-  
+.success-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.overlay {
+  background-size: cover;
+  background-image: url('images/Screenshot (22).png');
+  height: 169px;
+}
+.overlay div {
+  height: 169px;
+  background-color:  #ec5342c0;
+  filter: opacity(0.7)
+}
+.overlay-one {
+  background-size: cover;
+  background-image: url('images/Screenshot (11).png');
+  height: 169px;
+}
+
+.overlay-one div {
+  height: 169px;
+  background-color: #ec5342c0;
+  filter: opacity(0.7)
 }
 
 
@@ -668,8 +688,8 @@ nav {
     align-items: center;
     gap: 19px;
     padding: 10px;
-    min-width: 350px;
-    max-width: 350px;
+    min-width: 300px;
+    max-width: 300px;
     height: auto;
     background: rgba(255, 255, 255, 0.1);
   }
@@ -989,29 +1009,40 @@ nav {
     margin-top: 0;
     font-size: 18px;
   }
-
+  .overlay {
+    background-size: cover;
+    background-image: url('images/Screenshot (22).png');
+    height: 299px;
+    width: 539px;
+  }
+  .overlay div {
+    height: 299px;
+    width: 539px;
+    background-color:  #ec5342c0;
+    filter: opacity(0.7)
+  }
   .success-img {
     padding: 50px;
     padding-top: 20px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 10px;
   }
 
-  .success-img a {
+  .overlay-one {
+    background-size: cover;
+    background-image: url('images/Screenshot (11).png');
+    height: 299px;
     width: 539px;
-    height: 300px;
   }
-
-  .success-img img {
+  
+  .overlay-one div {
+    height: 299px;
     width: 539px;
-    height: 300px;
-    filter: opacity(0.5)  drop-shadow(0 0 0 rgb(94, 0, 0));
-    transition: 0.5s;
-    cursor: pointer;
+    background-color: #ec5342c0;
+    filter: opacity(0.7)
   }
-
-  .success-img img:hover {
-    filter: opacity(1)  drop-shadow(0 0 0 rgb(0, 0, 0));
-  }
-}
+  
+ 
+} 
