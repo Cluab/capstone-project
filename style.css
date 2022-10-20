@@ -109,6 +109,13 @@ nav {
     scroll-behavior: smooth;
     margin-top: 13%;
   }
+
+  .minebox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
 }
 
 .microverse-logo {
@@ -144,13 +151,23 @@ nav {
   font-size: 15px;
   background-color: rgb(248, 242, 242);
 }
-
-.intro-date {
+.raiting {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   margin: 0;
+  padding-top: 10px;
   font-size: 15px;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 0px;
+}
+.raiting h3 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 20px;
+}
+.intro-date {
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .main-program {
@@ -161,7 +178,8 @@ nav {
   margin: 0%;
   padding: 20px;
   color: white;
-  align-content: space-between;
+ justify-content: center;
+ align-items: center;
   gap: 20px;
   scroll-behavior: smooth;
 }
@@ -208,9 +226,22 @@ nav {
   background: rgba(255, 255, 255, 0.1);
 }
 
-footer img {
+.main-footer img {
   min-width: 100px;
   max-width: 100px;
+  filter: invert(100%);
+  padding-top: 50px;
+}
+
+.about-footer img {
+  min-width: 100px;
+  max-width: 100px;
+}
+.main-img{
+  min-width: 100px;
+  max-width: 100px;
+  
+  
 }
 
 .main-box img {
@@ -224,15 +255,30 @@ footer img {
   margin: 0;
   padding-top: 16px;
 }
+.main-footer p {
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
 
-footer p {
+.about-footer p {
+  margin-top: 0;
+  color: rgb(255, 254, 254);
+  font-size: 13px;
+  padding-bottom: 10px;
+  /* padding-top: 50px; */
+}
+.about-footer p {
   margin-top: 0;
   color: white;
   font-size: 10px;
+  
 }
 
 .main-box p {
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .team-section {
@@ -241,6 +287,8 @@ footer p {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border-bottom:1px solid #aaa7a7;
+  padding-bottom: 50px;
 }
 
 .team-box {
@@ -257,7 +305,7 @@ footer p {
 }
 
 .image-box {
-  width: 50%;
+  width: 200px;
   height: fit-content;
 }
 
@@ -265,7 +313,7 @@ footer p {
   position: relative;
   top: 10%;
   left: 2%;
-  width: 100%;
+  width: 130px;
   padding-top: 20px;
 }
 
@@ -273,10 +321,12 @@ footer p {
   height: 10%;
   left: 20px;
   position: absolute;
+  background-image: url();
 }
 
 .team-name h4 {
   color: black;
+  margin-bottom: 10px;
 }
 
 .team-name p {
@@ -288,7 +338,7 @@ footer p {
 }
 
 .sponser {
-  margin-top: 50px;
+  margin-top:20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,8 +360,16 @@ footer p {
   filter: grayscale(100%);
   width: 90%;
 }
-
-footer {
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 5px;
+  background-color: #f1f1f1;
+}
+.about-footer {
   display: flex;
   flex-direction: row;
   gap: 5%;
@@ -428,6 +486,7 @@ footer {
   filter: opacity(0.5) drop-shadow(0 0 0 rgb(184, 4, 4));
   transition: 0.5s;
   cursor: pointer;
+  
 }
 
 
@@ -554,13 +613,13 @@ footer {
     background-color: rgb(248, 242, 242);
     max-width: 1000px;
   }
-
+.raiting h3 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 40px;
+}
   .intro-date {
-    padding: 20px;
-    margin: 0;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 20px;
   }
 
   .main-program {
@@ -609,16 +668,38 @@ footer {
     align-items: center;
     gap: 19px;
     padding: 10px;
-    width: fit-content;
+    min-width: 350px;
+    max-width: 350px;
     height: auto;
     background: rgba(255, 255, 255, 0.1);
   }
 
-  footer img {
+  .main-big-box :hover {
+    border: 1px solid wheat;
+  }
+  .main-box :hover {
+    border: none;
+  }
+
+  .main-program a {
+    color: #e9e9e9;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  .main-footer img {
     min-width: 200px;
     max-width: 200px;
     min-height: 40px;
     max-height: 40px;
+    padding-top: 10px;
+  }
+  .about-footer img {
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 40px;
+    max-height: 40px;
+    padding-top: 10px;
   }
 
   .main-box img {
@@ -737,7 +818,7 @@ footer {
     padding-bottom: 20px;
   }
 
-  footer {
+  .about-footer {
     display: flex;
     flex-direction: row;
     gap: 30%;
@@ -748,6 +829,30 @@ footer {
     background-color: #2e2e2e;
   }
 
+  .main-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    background-color: #e9e9e9;
+  }
+.main-footer p {
+  padding-top: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  min-width: 200px;
+  max-width: 200px;
+}
+.about-footer p {
+  padding-top: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  min-width: 200px;
+  max-width: 200px;
+}
   .ender {
     padding-top: 50px;
     color: white;
