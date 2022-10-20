@@ -688,8 +688,8 @@ nav {
     align-items: center;
     gap: 19px;
     padding: 10px;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 250px;
     height: auto;
     background: rgba(255, 255, 255, 0.1);
   }
@@ -752,7 +752,7 @@ nav {
 
   .team-section {
     min-height: 1000px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
 
   .team-box {
@@ -813,7 +813,7 @@ nav {
   }
 
   .sponser {
-    margin-top: 50px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
