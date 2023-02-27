@@ -20,7 +20,7 @@ nav {
   position: fixed;
   z-index: 20;
   height: 5%;
-  width: 100vw;
+  /* width: 100vw; */
   padding: 20px;
   top: 0%;
   background-color: white;
@@ -140,7 +140,8 @@ nav {
 }
 
 .microverse-logo {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   filter: invert(70%);
   position: relative;
 }
@@ -586,7 +587,7 @@ nav {
     width: fit-content;
     padding: 0%;
     margin: 0%;
-    padding-right: 10%;
+    /* padding-right: 10%; */
     padding-top: 5px;
   }
 
