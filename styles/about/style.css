@@ -75,7 +75,7 @@ nav {
   padding-bottom: 10px;
 }
 
-.sponser {
+.sponsor {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,14 +93,14 @@ nav {
   justify-content: space-between;
 }
 
-.sponser-img {
+.sponsor-img {
   -webkit-filter: grayscale(0%);
   filter: grayscale(100%);
   width: 90%;
 }
 
 
-.Microvers-section {
+.Microverse-section {
   display: flex;
   flex-direction: column;
   margin-top: 15%;
