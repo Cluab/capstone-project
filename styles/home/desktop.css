@@ -147,7 +147,7 @@
       max-width: 1000px;
     }
   
-    .raiting h3 {
+    .rating h3 {
       font-family: 'COCOGOOSE', sans-serif;
       font-size: 40px;
     }
@@ -182,11 +182,6 @@
       justify-content: center;
       border-bottom: 1px solid #ec5242;
       padding-bottom: 10px;
-    }
-  
-    .at-microverse {
-      text-decoration: none;
-      color: #ec5242;
     }
   
     .main-big-box {
@@ -232,15 +227,6 @@
       padding-top: 10px;
     }
   
-    .about-footer img {
-      min-width: 200px;
-      max-width: 200px;
-      min-height: 40px;
-      max-height: 40px;
-      padding-top: 10px;
-      filter: invert(0);
-    }
-  
     .main-box img {
       display: flex;
       align-items: center;
@@ -257,12 +243,6 @@
   
     .main-box p {
       font-size: 17px;
-    }
-  
-    .minebox {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
     }
   
     .team-section {
@@ -327,7 +307,7 @@
       font-size: 18px;
     }
   
-    .sponser {
+    .sponsor {
       margin-top: 0;
       display: flex;
       flex-direction: column;
@@ -345,23 +325,12 @@
       justify-items: center;
     }
   
-    .sponser-img {
+    .sponsor-img {
       -webkit-filter: grayscale(0%);
       filter: grayscale(100%);
       min-width: 120px;
       max-width: 120px;
       padding-bottom: 20px;
-    }
-  
-    .about-footer {
-      display: flex;
-      flex-direction: row;
-      gap: 30%;
-      padding-top: 20px;
-      padding-left: 20px;
-      padding-right: 5px;
-      padding-bottom: 20px;
-      background-color: #2e2e2e;
     }
   
     .main-footer {
@@ -383,32 +352,12 @@
       max-width: 200px;
     }
   
-    .about-footer p {
-      padding-top: 50px;
-      color: rgb(255, 255, 255);
-      font-size: 17px;
-      min-width: 200px;
-      max-width: 200px;
-    }
-  
     .ender {
       padding-top: 50px;
       color: white;
       font-size: 17px;
       min-width: 200px;
       max-width: 200px;
-    }
-  
-    .Microvers-section {
-      display: flex;
-      flex-direction: column;
-      margin-top: 0;
-      background-image: url("../../images/about_bg_01.png");
-      background-repeat: no-repeat;
-      gap: 25px;
-      padding: 20px;
-      padding-top: 3em;
-      background-size: cover;
     }
   
     .main-text h1 {
@@ -419,91 +368,10 @@
       color: #ec5242;
       padding-bottom: 0;
     }
-  
-    .diffrent p {
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      font-weight: 400;
-    }
-  
-    .story {
-      color: black;
-      margin: 0 auto 33px;
-      padding-top: 50px;
-      line-height: 25px;
-      border: 1px solid rgb(223, 223, 223);
-      width: 960px;
-      height: 170px;
-      background-color: rgb(255, 255, 255);
-      font-size: 1em;
-    }
-  
-    .story p {
-      margin: 0;
-    }
-  
-    .contact {
-      font-size: 15px;
-      text-align: center;
-    }
-  
-    .contact a {
-      color: black;
-    }
-  
-    .goal-section {
-      display: flex;
-      flex-direction: column;
-      background-color: #f7f1f1;
-      background-repeat: no-repeat;
-      gap: 25px;
-      padding: 20px;
-      background-size: cover;
-    }
-  
-    .goal-section .main-text h3 {
-      font-size: 40px;
-    }
-  
-    .goal-text {
-      text-align: center;
-      color: black;
-      font-size: 20px;
-    }
-  
+
     .highlight {
       font-weight: 00;
-    }
-  
-    .highlighted {
-      font-size: 30px;
-      text-align: center;
-      color: black;
-      font-weight: 700;
-    }
-  
-    .know-more {
-      font-size: 19px;
-      color: black;
-      margin-bottom: 30px;
-      font-weight: 400;
-    }
-  
-    .know-more a {
-      color: #ec5242;
-      text-decoration: none;
-    }
-  
-    .mission-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .mission-box img {
-      min-width: 20px;
-      max-width: 400px;
+    
     }
   
     .spotlight-section {
@@ -516,55 +384,10 @@
       background-size: cover;
     }
   
-    .spotlight-section .main-text h3 {
+    .main-text h3 {
       font-size: 35px;
     }
-  
-    .spotlight-section p {
-      color: black;
-      font-weight: 700;
-      text-align: center;
-      margin-top: 0;
-      font-size: 18px;
-    }
-  
-    .overlay {
-      background-size: cover;
-      background-image: url('../../images/Screenshot (22).png');
-      height: 299px;
-      width: 539px;
-    }
-  
-    .overlay div {
-      height: 299px;
-      width: 539px;
-      background-color: #ec5342c0;
-      filter: opacity(0.7);
-    }
-  
-    .success-img {
-      padding: 50px;
-      padding-top: 20px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      gap: 10px;
-    }
-  
-    .overlay-one {
-      background-size: cover;
-      background-image: url('../../images/Screenshot (11).png');
-      height: 299px;
-      width: 539px;
-    }
-  
-    .overlay-one div {
-      height: 299px;
-      width: 539px;
-      background-color: #ec5342c0;
-      filter: opacity(0.7);
-    }
-  
+
     .mobile-version {
       display: none;
     }
