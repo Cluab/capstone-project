@@ -14,15 +14,6 @@
       filter: invert(0);
     }
   
-    .backed-by {
-      align-items: center;
-      display: grid;
-      grid-template-columns: 3fr 3fr 3fr;
-      grid-template-rows: 3fr 3fr 3fr;
-      margin-top: 30px;
-      justify-items: center;
-    }
-  
     .about-footer {
       display: flex;
       flex-direction: row;
@@ -107,15 +98,8 @@
       font-size: 20px;
     }
   
-    .highlight {
-      font-weight: 00;
-    }
-  
     .highlighted {
       font-size: 30px;
-      text-align: center;
-      color: black;
-      font-weight: 700;
     }
   
     .know-more {

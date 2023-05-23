@@ -1,81 +1,12 @@
 @media (max-width: 768px) {
-    .ul-nav {
-      position: fixed;
-      left: -100%;
-      display: flex;
-      top: 0;
-      padding-top: 0;
-      gap: 10px;
-      flex-direction: column;
-      background: rgb(39, 42, 50);
-      opacity: 0.95;
-      width: 70%;
-      height: 100vh;
-      font-size: 27px;
-      margin-top: 0;
-      transition: 0.9s;
-      list-style-type: none;
-    }
-  
-    .ul-nav li p {
-      margin-top: 0;
-      color: #f7f1f1;
-    }
-  
-    a {
-      text-decoration: none;
-    }
-  
-    button {
-      border-style: none;
-      font-size: 40px;
-      background: rgb(39, 42, 50);
-      opacity: 0.95;
-      color: #f7f1f1;
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: row;
-      padding-right: 40px;
-    }
-  
-    .ul-nav.active {
-      left: 0;
-    }
-  
-    .nav-logo-link {
-      width: 50%;
-    }
-  
-    .hamburger.active {
-      width: 40px;
-      height: 30px;
-    }
-  
-    .bar {
-      display: block;
-      width: 25px;
-      height: 3px;
-      margin: 5px;
-      margin-right: 15px;
-      -webkit-transition: all 0.3s ease;
-      transition: all 0.3s ease;
-      background-color: rgb(3, 3, 3);
-    }
   
     .intro-section {
-      display: flex;
-      flex-direction: column;
       background-image: url("../../images/mobile_intro_bg.png");
-      background-repeat: no-repeat;
-      padding: 20px;
       padding-top: 50px;
-      background-size: cover;
-      scroll-behavior: smooth;
       margin-top: 13%;
     }
   
     .main-program a {
-      color: #e9e9e9;
       font-size: 14px;
       height: 40px;
       font-weight: 600;
@@ -84,7 +15,6 @@
       flex-direction: column;
       padding: 10px 70px;
       background-color: #ec5242;
-      text-decoration: none;
     }
   
   }
