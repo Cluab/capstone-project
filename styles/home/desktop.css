@@ -1,105 +1,4 @@
 @media (min-width: 768px) {
-    .desktop-version {
-      display: contents;
-    }
-  
-    button {
-      display: none;
-    }
-  
-    header div {
-      background-color: #2e2e2e;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-    }
-  
-    nav ul {
-      display: flex;
-      flex-direction: row;
-      list-style-type: none;
-      gap: 70px;
-      width: fit-content;
-      padding: 0%;
-      margin: 0%;
-      padding-top: 5px;
-    }
-  
-    header div ul {
-      list-style: none;
-      display: flex;
-      justify-content: flex-end;
-      background-color: #2e2e2e;
-      height: 35px;
-      margin: 0%;
-      align-items: center;
-      gap: 20px;
-      padding-right: 150px;
-    }
-  
-    header div ul li {
-      color: rgb(248, 248, 248);
-    }
-  
-    nav a {
-      width: 40%;
-    }
-  
-    header div ul li a {
-      text-decoration: none;
-      color: #e9e9e9;
-      font-weight: 600;
-    }
-  
-    nav {
-      position: static;
-      padding: 20px 50px 10px 50px;
-      padding-right: 50px;
-      justify-content: space-between;
-      min-width: 768px;
-      max-width: 100%;
-      height: 50px;
-      margin: 0;
-    }
-  
-    .nav-logo-link {
-      display: flex;
-      width: fit-content;
-    }
-  
-    .about-link {
-      display: contents;
-      height: fit-content;
-    }
-  
-    .other-link {
-      text-decoration: none;
-    }
-  
-    .about-link p {
-      margin: 0;
-      padding-top: 3px;
-      font-size: 20px;
-      color: #797575;
-      font-weight: 800;
-    }
-  
-    .other-link p {
-      margin: 0;
-      padding-top: 3px;
-      font-size: 20px;
-      color: #797575;
-      font-weight: 500;
-    }
-  
-    .hamburger {
-      display: none;
-    }
-  
-    .microverse-logo {
-      min-width: 300px;
-      height: 90%;
-    }
   
     .intro-section {
       display: flex;
@@ -170,18 +69,6 @@
       color: white;
       align-content: space-between;
       gap: 100px;
-    }
-  
-    .main-text {
-      display: flex;
-      font-size: 25px;
-      justify-content: center;
-    }
-  
-    .main-text h3 {
-      justify-content: center;
-      border-bottom: 1px solid #ec5242;
-      padding-bottom: 10px;
     }
   
     .main-big-box {
@@ -307,15 +194,6 @@
       font-size: 18px;
     }
   
-    .sponsor {
-      margin-top: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 40px;
-      background-color: rgb(240, 240, 240);
-    }
-  
     .backed-by {
       align-items: center;
       display: grid;
@@ -323,14 +201,6 @@
       grid-template-rows: 3fr 3fr 3fr;
       margin-top: 30px;
       justify-items: center;
-    }
-  
-    .sponsor-img {
-      -webkit-filter: grayscale(0%);
-      filter: grayscale(100%);
-      min-width: 120px;
-      max-width: 120px;
-      padding-bottom: 20px;
     }
   
     .main-footer {
@@ -352,23 +222,7 @@
       max-width: 200px;
     }
   
-    .ender {
-      padding-top: 50px;
-      color: white;
-      font-size: 17px;
-      min-width: 200px;
-      max-width: 200px;
-    }
-  
-    .main-text h1 {
-      justify-content: center;
-      border-bottom: 1px solid #ec5242;
-      font-family: 'COCOGOOSE', sans-serif;
-      font-size: 40px;
-      color: #ec5242;
-      padding-bottom: 0;
-    }
-
+    
     .highlight {
       font-weight: 00;
     

@@ -1,64 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-weight: 400;
-  margin: 0;
-  color: #797575;
-  scroll-behavior: smooth;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  gap: 15%;
-  position: fixed;
-  z-index: 20;
-  height: 5%;
-  padding: 20px;
-  top: 0%;
-  background-color: white;
-}
-
-.microverse-logo {
-  max-width: 100%;
-  height: auto;
-  filter: invert(70%);
-  position: relative;
-}
-
-#intro :-webkit-scrollbar {
-  scroll-behavior: smooth;
-}
-
-.main-text {
-  display: flex;
-  justify-content: center;
-}
-
-.main-text h3 {
-  justify-content: center;
-  border-bottom: 1px solid #ec5242;
-  padding-bottom: 10px;
-}
-
 .at-microverse {
   text-decoration: none;
   color: #ec5242;
-}
-
-.main-text h1 {
-  justify-content: center;
-  border-bottom: 1px solid #ec5242;
-  font-family: 'COCOGOOSE', sans-serif;
-  font-size: 25px;
-  color: #ec5242;
-  padding-bottom: 10px;
 }
 
 .about-footer img {
@@ -73,30 +15,6 @@ nav {
   color: rgb(0, 0, 0);
   font-size: 13px;
   padding-bottom: 10px;
-}
-
-.sponsor {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-  background-color: rgb(240, 240, 240);
-  margin-top: 0;
-}
-
-.backed-by {
-  align-items: center;
-  display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
-  grid-template-rows: 3fr 3fr 3fr;
-  margin-top: 30px;
-  justify-content: space-between;
-}
-
-.sponsor-img {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(100%);
-  width: 90%;
 }
 
 
@@ -132,10 +50,6 @@ nav {
   color: black;
 }
 
-.black {
-  color: black;
-  font-size: 24px;
-}
 
 .goal-section {
   display: flex;
@@ -191,10 +105,6 @@ nav {
   font-weight: 700;
   text-align: center;
   margin-top: 0;
-}
-
-.desktop-version {
-  display: none;
 }
 
 .success-img {
