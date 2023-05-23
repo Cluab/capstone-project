@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .intro-section {
+    background-image: url("../../images/mobile_intro_bg.png");
+    padding-top: 50px;
+    margin-top: 13%;
+  }
+
+  .main-program a {
+    font-size: 14px;
+    height: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 70px;
+    border-bottom-color: #ec5242;
+    background-color: #ec5242;
+  }
+}

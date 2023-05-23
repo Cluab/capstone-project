@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #797575;
+}
+
+h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  position: fixed;
+  z-index: 20;
+  height: 50px;
+  padding: 20px;
+  top: 0%;
+  background-color: white;
+}
+
+img.microverse-logo {
+  max-width: 100%;
+  height: auto;
+  filter: invert(70%);
+  position: relative;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+}
+
+.main-text h1 {
+  border-bottom: 1px solid #ec5242;
+  font-size: 25px;
+  color: #ec5242;
+  padding-bottom: 10px;
+}
+
+.main-text h3 {
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 10px;
+}
+
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 0;
+}
+
+.backed-by {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.sponsor-img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(100%);
+  width: 90%;
+}
+
+.black {
+  color: black;
+  font-size: 24px;
+}
+
+.desktop-version {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-version {
+    display: contents;
+  }
+
+  button {
+    display: none;
+  }
+
+  header div {
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 70px;
+    width: fit-content;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 5px;
+  }
+
+  header div ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2e2e2e;
+    height: 35px;
+    margin: 0%;
+    align-items: center;
+    gap: 20px;
+    padding-right: 150px;
+  }
+
+  header div ul li {
+    color: rgb(248, 248, 248);
+  }
+
+  nav a {
+    width: 40%;
+  }
+
+  header div ul li a {
+    text-decoration: none;
+    color: #e9e9e9;
+    font-weight: 600;
+  }
+
+  nav {
+    position: static;
+    padding: 20px 50px 10px 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    min-width: 768px;
+    max-width: 100%;
+    height: 50px;
+    margin: 0;
+  }
+
+  .nav-logo-link {
+    display: flex;
+    width: fit-content;
+  }
+
+  .about-link {
+    display: contents;
+    height: fit-content;
+  }
+
+  .other-link {
+    text-decoration: none;
+  }
+
+  .about-link p {
+    margin: 0;
+    padding-top: 3px;
+    font-size: 20px;
+    color: #797575;
+    font-weight: 800;
+  }
+
+  .other-link p {
+    margin: 0;
+    padding-top: 3px;
+    font-size: 20px;
+    color: #797575;
+    font-weight: 500;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .microverse-logo {
+    min-width: 300px;
+    height: 90%;
+  }
+
+  .main-text {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  .main-text h3 {
+    justify-content: center;
+    border-bottom: 1px solid #ec5242;
+    padding-bottom: 10px;
+  }
+
+  .sponsor {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(240, 240, 240);
+  }
+
+  .sponsor-img {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(100%);
+    min-width: 120px;
+    max-width: 120px;
+    padding-bottom: 20px;
+  }
+
+  .ender {
+    padding-top: 50px;
+    color: white;
+    font-size: 17px;
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .main-text h1 {
+    justify-content: center;
+    border-bottom: 1px solid #ec5242;
+    font-size: 40px;
+    color: #ec5242;
+    padding-bottom: 0;
+  }
+
+  .highlight {
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: 30px;
+  }
+
+  .ul-nav {
+    position: fixed;
+    left: -100%;
+    display: flex;
+    top: 0;
+    padding-top: 0;
+    gap: 10px;
+    flex-direction: column;
+    background: rgb(39, 42, 50);
+    opacity: 0.95;
+    width: 70%;
+    height: 100vh;
+    font-size: 27px;
+    margin-top: 0;
+    transition: 0.9s;
+    list-style-type: none;
+  }
+
+  .ul-nav li p {
+    margin-top: 0;
+    color: #f7f1f1;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    border-style: none;
+    font-size: 40px;
+    background: rgb(39, 42, 50);
+    opacity: 0.95;
+    color: #f7f1f1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 40px;
+  }
+
+  .ul-nav.active {
+    left: 0;
+  }
+
+  .nav-logo-link {
+    width: 50%;
+  }
+
+  .hamburger.active {
+    width: 40px;
+    height: 30px;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    margin-right: 15px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: rgb(3, 3, 3);
+  }
+}

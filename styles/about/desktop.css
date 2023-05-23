@@ -1,0 +1,112 @@
+@media (min-width: 768px) {
+  .about-footer img {
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 40px;
+    max-height: 40px;
+    padding-top: 10px;
+    filter: invert(0);
+  }
+
+  .about-footer {
+    gap: 30%;
+    background-color: #2e2e2e;
+  }
+
+  .about-footer p {
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .Microverse-section {
+    margin-top: 0;
+    background-image: url("../../images/about_bg_01.png");
+  }
+
+  .story {
+    margin: 0 auto 33px;
+    padding-top: 50px;
+    line-height: 25px;
+    border: 1px solid rgb(223, 223, 223);
+    width: 960px;
+    height: 170px;
+    font-size: 1em;
+  }
+
+  .contact {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .goal-section .main-text h3 {
+    font-size: 40px;
+  }
+
+  .goal-text {
+    font-size: 20px;
+  }
+
+  .highlighted {
+    font-size: 30px;
+  }
+
+  .know-more {
+    font-size: 19px;
+  }
+
+  .mission-box {
+    align-items: center;
+  }
+
+  .mission-box img {
+    min-width: 20px;
+    max-width: 400px;
+  }
+
+  .spotlight-section .main-text h3 {
+    font-size: 35px;
+  }
+
+  .spotlight-section p {
+    font-size: 18px;
+  }
+
+  .overlay,
+  .overlay-one {
+    background-size: cover;
+    height: 299px;
+    width: 539px;
+  }
+
+  .overlay div,
+  .overlay-one div {
+    height: 299px;
+    width: 539px;
+    background-color: #ec5342c0;
+    filter: opacity(0.7);
+  }
+
+  .overlay {
+    background-image: url('../../images/Screenshot (22).png');
+  }
+
+  .overlay-one {
+    background-image: url('../../images/Screenshot (11).png');
+  }
+
+  .success-img {
+    padding: 50px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .mobile-version {
+    display: none;
+  }
+}

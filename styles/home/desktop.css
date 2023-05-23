@@ -1,0 +1,153 @@
+@media (min-width: 768px) {
+  .intro-section {
+    background-image: url('../../images/main_big.png');
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
+  .intro1 h1 {
+    font-size: 35px;
+  }
+
+  .intro1 h2 {
+    font-size: 70px;
+    margin-right: 7%;
+    margin-bottom: 0;
+    max-width: 900px;
+  }
+
+  .intro-description {
+    padding-bottom: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    max-width: 1000px;
+  }
+
+  .rating h3 {
+    font-size: 40px;
+  }
+
+  .intro-date {
+    font-size: 20px;
+  }
+
+  .main-program {
+    min-height: 670px;
+    max-height: 600px;
+    padding: 60px 50px;
+    padding-top: 60px;
+    align-content: space-between;
+    gap: 100px;
+  }
+
+  .main-big-box {
+    flex-direction: row;
+    gap: 20px;
+    width: fit-content;
+    padding-right: 20px;
+  }
+
+  .main-box {
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .main-big-box :hover {
+    border: 1px solid wheat;
+  }
+
+  .main-box :hover {
+    border: none;
+  }
+
+  .main-footer img {
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 40px;
+    max-height: 40px;
+    padding-top: 10px;
+  }
+
+  .main-box img {
+    display: flex;
+    align-items: center;
+    max-width: 25%;
+  }
+
+  .main-box h4 {
+    font-size: 20px;
+  }
+
+  .main-box p {
+    font-size: 17px;
+  }
+
+  .team-section {
+    min-height: 1000px;
+    margin-bottom: 0;
+  }
+
+  .team-box {
+    display: grid;
+    grid-template-rows: 3.33fr 3.33fr;
+    grid-template-columns: 1fr 1fr;
+    min-height: 800px;
+    column-gap: 20px;
+  }
+
+  .image-box {
+    width: 100%;
+    min-width: 180px;
+  }
+
+  .team-image {
+    width: 100%;
+    z-index: 2;
+  }
+
+  .square-img {
+    height: 10%;
+    left: 20px;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .team-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .team-name h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .team-box p {
+    font-size: 18px;
+  }
+
+  .main-footer {
+    gap: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .main-footer p {
+    padding-top: 50px;
+    font-size: 17px;
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .main-text h3 {
+    font-size: 35px;
+  }
+
+  .mobile-version {
+    display: none;
+  }
+}
