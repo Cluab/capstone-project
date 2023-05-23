@@ -1,11 +1,6 @@
 @media (max-width: 768px) {
     .about-footer {
-      display: flex;
-      flex-direction: row;
       gap: 5%;
-      padding-top: 20px;
-      padding-left: 20px;
-      padding-right: 5px;
       background-color: #fff;
     }
   }

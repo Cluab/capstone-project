@@ -1,9 +1,4 @@
 @media (min-width: 768px) {
-
-    .at-microverse {
-      text-decoration: none;
-      color: #ec5242;
-    }
   
     .about-footer img {
       min-width: 200px;
@@ -15,13 +10,7 @@
     }
   
     .about-footer {
-      display: flex;
-      flex-direction: row;
       gap: 30%;
-      padding-top: 20px;
-      padding-left: 20px;
-      padding-right: 5px;
-      padding-bottom: 20px;
       background-color: #2e2e2e;
     }
   
@@ -35,38 +24,18 @@
     }
   
     .Microverse-section {
-      display: flex;
-      flex-direction: column;
       margin-top: 0;
       background-image: url("../../images/about_bg_01.png");
-      background-repeat: no-repeat;
-      gap: 25px;
-      padding: 20px;
-      padding-top: 3em;
-      background-size: cover;
-    }
-  
-    .diffrent p {
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      font-weight: 400;
     }
   
     .story {
-      color: black;
       margin: 0 auto 33px;
       padding-top: 50px;
       line-height: 25px;
       border: 1px solid rgb(223, 223, 223);
       width: 960px;
       height: 170px;
-      background-color: rgb(255, 255, 255);
       font-size: 1em;
-    }
-  
-    .story p {
-      margin: 0;
     }
   
     .contact {
@@ -74,27 +43,11 @@
       text-align: center;
     }
   
-    .contact a {
-      color: black;
-    }
-  
-    .goal-section {
-      display: flex;
-      flex-direction: column;
-      background-color: #f7f1f1;
-      background-repeat: no-repeat;
-      gap: 25px;
-      padding: 20px;
-      background-size: cover;
-    }
-  
     .goal-section .main-text h3 {
       font-size: 40px;
     }
   
     .goal-text {
-      text-align: center;
-      color: black;
       font-size: 20px;
     }
   
@@ -104,19 +57,9 @@
   
     .know-more {
       font-size: 19px;
-      color: black;
-      margin-bottom: 30px;
-      font-weight: 400;
-    }
-  
-    .know-more a {
-      color: #ec5242;
-      text-decoration: none;
     }
   
     .mission-box {
-      display: flex;
-      flex-direction: column;
       align-items: center;
     }
   
@@ -125,25 +68,11 @@
       max-width: 400px;
     }
   
-    .spotlight-section {
-      display: flex;
-      flex-direction: column;
-      background-color: #f7f1f1;
-      background-repeat: no-repeat;
-      gap: 25px;
-      padding: 20px;
-      background-size: cover;
-    }
-  
     .spotlight-section .main-text h3 {
       font-size: 35px;
     }
   
     .spotlight-section p {
-      color: black;
-      font-weight: 700;
-      text-align: center;
-      margin-top: 0;
       font-size: 18px;
     }
   
