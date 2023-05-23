@@ -43,16 +43,15 @@
   .main-big-box {
     flex-direction: row;
     gap: 20px;
-    width: fit-content;
+    width: 100%;
     padding-right: 20px;
   }
 
   .main-box {
     flex-direction: column;
     align-items: center;
-    min-width: 250px;
-    max-width: 250px;
-    height: auto;
+    width: 250px;
+    height: 350px;
   }
 
   .main-big-box :hover {
