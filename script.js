@@ -44,7 +44,7 @@ const teammembers = [{
 
 const team = document.querySelector('.team-box');
 
-window.onload = function win() {
+window.onload = function () {
   function boredmembers() {
     teammembers.forEach((teammembers) => {
       team.innerHTML += `
