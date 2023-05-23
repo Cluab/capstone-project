@@ -76,20 +76,29 @@
       font-size: 18px;
     }
   
-    .overlay {
+    .overlay,
+    .overlay-one {
       background-size: cover;
-      background-image: url('../../images/Screenshot (22).png');
       height: 299px;
       width: 539px;
     }
-  
-    .overlay div {
+    
+    .overlay div,
+    .overlay-one div {
       height: 299px;
       width: 539px;
       background-color: #ec5342c0;
       filter: opacity(0.7);
     }
-  
+    
+    .overlay {
+      background-image: url('../../images/Screenshot (22).png');
+    }
+    
+    .overlay-one {
+      background-image: url('../../images/Screenshot (11).png');
+    }
+    
     .success-img {
       padding: 50px;
       padding-top: 20px;
@@ -98,20 +107,7 @@
       justify-content: center;
       gap: 10px;
     }
-  
-    .overlay-one {
-      background-size: cover;
-      background-image: url('../../images/Screenshot (11).png');
-      height: 299px;
-      width: 539px;
-    }
-  
-    .overlay-one div {
-      height: 299px;
-      width: 539px;
-      background-color: #ec5342c0;
-      filter: opacity(0.7);
-    }
+
   
     .mobile-version {
       display: none;

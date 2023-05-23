@@ -10,49 +10,43 @@ html {
     font-weight: 400;
     margin: 0;
     color: #797575;
-    scroll-behavior: smooth;
   }
   
+  h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
   nav {
     display: flex;
     flex-direction: row;
     gap: 15%;
     position: fixed;
     z-index: 20;
-    height: 5%;
+    height: 50px;
     padding: 20px;
     top: 0%;
     background-color: white;
   }
   
-  .microverse-logo {
+  img.microverse-logo {
     max-width: 100%;
     height: auto;
     filter: invert(70%);
     position: relative;
   }
-
-
-  #intro :-webkit-scrollbar {
-    scroll-behavior: smooth;
-  }
-
   .main-text {
     display: flex;
     justify-content: center;
   }
 
   .main-text h1 {
-    justify-content: center;
     border-bottom: 1px solid #ec5242;
-    font-family: 'COCOGOOSE', sans-serif;
     font-size: 25px;
     color: #ec5242;
     padding-bottom: 10px;
   }
 
   .main-text h3 {
-    justify-content: center;
     border-bottom: 1px solid #ec5242;
     padding-bottom: 10px;
   }
@@ -69,11 +63,10 @@ html {
   .backed-by {
     align-items: center;
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin-top: 30px;
     justify-content: space-between;
-    justify-items: center;
   }
   
 
@@ -217,8 +210,9 @@ html {
       }
 
       .sponsor-img {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(100%);
+          -webkit-filter: grayscale(0%);
+          -moz-filter: grayscale(0%);
+          filter: grayscale(100%);
         min-width: 120px;
         max-width: 120px;
         padding-bottom: 20px;
@@ -235,13 +229,12 @@ html {
       .main-text h1 {
         justify-content: center;
         border-bottom: 1px solid #ec5242;
-        font-family: 'COCOGOOSE', sans-serif;
         font-size: 40px;
         color: #ec5242;
         padding-bottom: 0;
       }
       .highlight {
-        font-weight: 00;
+        font-weight: normal;
       
       }
 }
