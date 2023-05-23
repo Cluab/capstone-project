@@ -68,6 +68,7 @@ img.microverse-logo {
   grid-template-rows: repeat(3, 1fr);
   margin-top: 30px;
   justify-content: space-between;
+  justify-items: center;
 }
 
 .sponsor-img {
