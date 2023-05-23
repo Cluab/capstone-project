@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
-    .about-footer {
-      gap: 5%;
-      background-color: #fff;
-    }
+  .about-footer {
+    gap: 5%;
+    background-color: #fff;
   }
+}

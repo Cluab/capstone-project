@@ -1,14 +1,15 @@
 .intro-section {
-      display: flex;
-      flex-direction: column;
-      background-repeat: no-repeat;
-       padding: 20px;
-        background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-size: cover;
 }
+
 .intro1 {
   display: flex;
   flex-direction: column;
-   padding-top: 3%;
+  padding-top: 3%;
 }
 
 .intro1 h1 {
@@ -67,7 +68,6 @@
   align-items: center;
   gap: 20px;
 }
-
 
 .main-big-box {
   display: flex;
@@ -192,7 +192,6 @@
   padding-right: 5px;
   background-color: #f1f1f1;
 }
-
 
 .team-section button {
   font-size: 20px;

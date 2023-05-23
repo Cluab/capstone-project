@@ -18,14 +18,12 @@
   filter: invert(100%);
 }
 
-
 .about-footer p {
   margin-top: 0;
   color: rgb(0, 0, 0);
   font-size: 13px;
   padding-bottom: 10px;
 }
-
 
 .Microverse-section,
 .goal-section,
@@ -47,7 +45,6 @@
 .know-more a {
   color: black;
 }
-
 
 .contact,
 .know-more,
@@ -74,7 +71,6 @@
   font-size: 13px;
   text-align: center;
 }
-
 
 .goal-text {
   text-align: center;
@@ -114,7 +110,7 @@
   gap: 10px;
 }
 
-.overlay ,
+.overlay,
 .overlay-one {
   background-size: cover;
   height: 169px;
