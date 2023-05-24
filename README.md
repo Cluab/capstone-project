@@ -23,7 +23,7 @@ Microverse Article website was built with:
 
 ### Live Demo
 
-You can view a live demo of the website at [Live Demo Link](https://cluab.github.io/portal-capstone1/index.html).
+You can view a live demo of the website at [Live Demo Link](http://codeesy-ebrahim.me/capstone-project/).
 
 ## Getting Started
 
