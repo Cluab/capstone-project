@@ -73,6 +73,7 @@ img.microverse-logo {
 
 .sponsor-img {
   -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
   filter: grayscale(100%);
   width: 90%;
 }
@@ -190,30 +191,14 @@ img.microverse-logo {
   }
 
   .main-text {
-    display: flex;
     font-size: 25px;
-    justify-content: center;
   }
 
   .main-text h3 {
     justify-content: center;
-    border-bottom: 1px solid #ec5242;
-    padding-bottom: 10px;
-  }
-
-  .sponsor {
-    margin-top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px;
-    background-color: rgb(240, 240, 240);
   }
 
   .sponsor-img {
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    filter: grayscale(100%);
     min-width: 120px;
     max-width: 120px;
     padding-bottom: 20px;
@@ -229,9 +214,7 @@ img.microverse-logo {
 
   .main-text h1 {
     justify-content: center;
-    border-bottom: 1px solid #ec5242;
     font-size: 40px;
-    color: #ec5242;
     padding-bottom: 0;
   }
 
